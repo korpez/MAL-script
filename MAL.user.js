@@ -63,10 +63,6 @@
                 let query = encodeURIComponent(animeTitle);
                 window.open(`https://old.reddit.com/r/anime/search/?q=${query}&restrict_sr=on&include_over_18=on&sort=relevance&t=all`, '_blank');
             }},
-            { label: 'Search Similar', icon: 'https://www.google.com/s2/favicons?domain=kagi.com', action: () => {
-                let query = encodeURIComponent(`10 shows like ${animeTitle}`);
-                window.open(`https://kagi.com/fastgpt?query=${query}`, '_blank');
-            }},
             { label: 'Search Fandom', icon: 'https://www.google.com/s2/favicons?domain=fandom.com', action: () => {
                     let query = encodeURIComponent(animeTitle);
                     window.open(`https://community.fandom.com/wiki/Special:Search?query=${query}&scope=cross-wiki`, '_blank');
